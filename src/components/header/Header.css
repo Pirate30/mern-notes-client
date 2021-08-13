@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: -1px -1px 12px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px -1px 12px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 12px 3px rgba(0, 0, 0, 0.75);
+  position: sticky;
+  background-color: #73767a;
+  color: white;
+  top: 0;
+}
+.headerLeft {
+  margin: 0 30px;
+}
+.headerRight__Icon {
+  position: fixed;
+  position: absolute;
+  top: 70vh;
+  transform: scale(2.6);
+  right: 20%;
+}
+.headerRight__IconBtn {
+  fill: red;
+}
+.modalForm {
+  display: flex;
+  flex-direction: column;
+}
+.modalForm .newNote {
+  border: none;
+  outline: none;
+}
+.modalButton {
+  border: none;
+  background-color: #0984e3;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
